@@ -1,0 +1,63 @@
+body {
+  background-image: url("../img/mm-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+img {
+  zoom: 30%;
+  display: none;
+  padding-top: 500px;
+}
+
+#user {
+  float: left;
+}
+
+#computer {
+  float: right;
+}
+
+#user #rl {
+  zoom: 40%;
+  display:none;
+  padding-top: 500px;
+  padding-left: 100px;
+}
+
+#user #pl {
+  zoom: 30%;
+  display:none;
+  padding-top: 500px;
+  padding-left: 100px;
+}
+
+#user #sl {
+  zoom: 30%;
+  display:none;
+  padding-top: 500px;
+  padding-left: 100px;
+}
+
+#computer #rr {
+  display:none;
+  padding-top: 500px;
+  padding-right: 100px;
+}
+
+#computer #pr {
+  display:none;
+  padding-top: 500px;
+  padding-right: 100px;
+}
+
+#computer #sr {
+  display:none;
+  padding-top: 500px;
+  padding-right: 100px;
+}
+
+
+
