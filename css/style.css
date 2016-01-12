@@ -1,3 +1,9 @@
+
+@font-face {
+    font-family: "Waltograph";
+    src: url("../font/waltograph/waltograph42.ttf");
+}
+
 body {
   background-image: url("../img/mm-bg.jpg");
   background-repeat: no-repeat;
@@ -6,8 +12,16 @@ body {
   background-position: center center;
 }
 
+h1 {
+  font-family: "Waltograph";
+  text-shadow: 3px 0 black, 0 3px black, 3px 0 black, 0 3px black;
+  font-size: 80px;
+  text-align: center;
+  color: white;
+  margin: 0;
+}
+
 img {
-  zoom: 30%;
   display: none;
   padding-top: 500px;
 }
@@ -21,41 +35,44 @@ img {
 }
 
 #user #rl {
-  zoom: 40%;
+  zoom: 35%;
   display:none;
-  padding-top: 500px;
+  padding-top: 300px;
   padding-left: 100px;
 }
 
 #user #pl {
-  zoom: 30%;
+  zoom: 25%;
   display:none;
-  padding-top: 500px;
+  padding-top: 300px;
   padding-left: 100px;
 }
 
 #user #sl {
   zoom: 30%;
   display:none;
-  padding-top: 500px;
+  padding-top: 300px;
   padding-left: 100px;
 }
 
 #computer #rr {
+  zoom: 35%;
   display:none;
-  padding-top: 500px;
+  padding-top: 300px;
   padding-right: 100px;
 }
 
 #computer #pr {
+  zoom: 25%;
   display:none;
-  padding-top: 500px;
+  padding-top: 300px;
   padding-right: 100px;
 }
 
 #computer #sr {
+  zoom: 30%;
   display:none;
-  padding-top: 500px;
+  padding-top: 300px;
   padding-right: 100px;
 }
 
