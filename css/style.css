@@ -75,6 +75,25 @@ img {
   padding-top: 300px;
   padding-right: 100px;
 }
+footer{
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+}
+li {
+  font-family: "Waltograph";
+  text-align: center;
+  color: #000000;
+  background-color: #f9d70b;
+  width: 150px;
+  height: 60px;
+  font-size: 50px;
+  display: inline-block;
+  bottom: 0px;
+  margin-right: 20px;
+  border: 1px solid #f9d70b;
+  border-radius: 20px;
+}
 
 
 
